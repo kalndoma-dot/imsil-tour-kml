@@ -202,6 +202,17 @@
     <Folder>
       <name>국가지정 문화재</name>
       <Placemark>
+        <name>임실진구사 석조비로자나불상</name>
+        <description><![CDATA[통일신라시대 진구사 터에서 발굴된 불상으로, 팔각형 대좌에 희미한 안상과 합장한 좌상 모습, 솟은 연꽃무늬 등이 정교하게 새겨져 있어요. 임진왜란 때 불타버린 커다란 사찰의 흔적을 묵묵히 보여주고 있답니다.]]></description>
+        <styleUrl>#icon-1668-0F9D58-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.2106612,35.6347499,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>임실진구사지 석등</name>
         <description><![CDATA[통일신라시대를 대표하는 고복형(장구 모양) 석등으로, 우리나라에서 두 번째로 큰 대형 석등이에요. 원래 절 터의 이름을 몰라 용암리사지 석등으로 불렸지만, 발굴 조사 중 '진구사(珍丘寺)'라는 글씨가 새겨진 기와가 발견되면서 지금의 이름으로 바뀌었답니다. 9세기 후반의 화려하고 장중한 조각 수법을 잘 보여주는 귀중한 유물이에요.]]></description>
         <styleUrl>#icon-1668-0288D1-labelson</styleUrl>
@@ -284,17 +295,6 @@
     </Folder>
     <Folder>
       <name>전라북도 지정 문화재</name>
-      <Placemark>
-        <name>임실진구사 석조비로자나불상</name>
-        <description><![CDATA[통일신라시대 진구사 터에서 발굴된 불상으로, 팔각형 대좌에 희미한 안상과 합장한 좌상 모습, 솟은 연꽃무늬 등이 정교하게 새겨져 있어요. 임진왜란 때 불타버린 커다란 사찰의 흔적을 묵묵히 보여주고 있답니다.]]></description>
-        <styleUrl>#icon-1668-0F9D58-labelson</styleUrl>
-        
-        <Point>
-          <coordinates>
-            127.2106612,35.6347499,0
-          </coordinates>
-        </Point>
-      </Placemark>
       <Placemark>
         <name>오수리석불</name>
         <description><![CDATA[오수리석불은 둥그스름한 타원형 모양의 입상으로, 마을 앞까지 불상이 다가오기를 바라며 평안과 부귀영화를 간절히 기원했던 주민들의 마음이 담겨 있어요. 자비로운 미소가 마음을 편안하게 해주는 수호신 같은 불상입니다.]]></description>
