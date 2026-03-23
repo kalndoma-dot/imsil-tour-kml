@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>임실의 문화유적</name>
+    <description><![CDATA[임실의 문화유적지를 쉽게 찾을수 있도록 제작(2017년 11월 공개)<br><br>- 국가 지정 문화재, 등록문화재, 전라북도 지정문화재, 군지정 문화재 등으로 구분<br>- 관광지, 가볼만한 곳 등을 구분<br><br>- 자세한 설명은 임실문화원 연구자료 및 네이버 백과사전에서 발췌.<br><br>- 제작 : 임실군 청웅면 칼맨]]></description>
+    <Style id="icon-1509-0F9D58-labelson">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1509-817717-labelson">
+      <IconStyle>
+        <color>ff177781</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1509-817717-labelson-nodesc">
+      <IconStyle>
+        <color>ff177781</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1509-9C27B0-labelson-nodesc">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1511-9C27B0-labelson">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1603-9C27B0-labelson">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1668-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1668-0F9D58-labelson">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1668-9C27B0-labelson">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1729-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1729-9C27B0-labelson-nodesc">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1773-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1802-0F9D58-labelson">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1802-9C27B0-labelson-nodesc">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1804-0F9D58-labelson">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1804-817717-labelson">
+      <IconStyle>
+        <color>ff177781</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1804-9C27B0-labelson">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1804-9C27B0-labelson-nodesc">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1804-E65100-labelson">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>국가지정 문화재</name>
+      <Placemark>
+        <name>임실진구사지 석등</name>
+        <description><![CDATA[통일신라시대를 대표하는 고복형(장구 모양) 석등으로, 우리나라에서 두 번째로 큰 대형 석등이에요. 원래 절 터의 이름을 몰라 용암리사지 석등으로 불렸지만, 발굴 조사 중 '진구사(珍丘寺)'라는 글씨가 새겨진 기와가 발견되면서 지금의 이름으로 바뀌었답니다. 9세기 후반의 화려하고 장중한 조각 수법을 잘 보여주는 귀중한 유물이에요.]]></description>
+        <styleUrl>#icon-1668-0288D1-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.2095668,35.6342267,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>덕천리 가침박달군락</name>
+        <description><![CDATA[가침박달나무는 주로 충청도 등 중북부 지방에서 자라는 희귀종인데, 특이하게도 관촌면 사선대 일대 넓은 면적에 수백 그루가 대규모 군락을 이루고 있어요. 5월이면 하얀 꽃이 만개하여 장관을 이루며, 식물 분포의 남쪽 한계선을 보여주는 곳이라 종 보존과 학술적 가치가 매우 뛰어나답니다.]]></description>
+        <styleUrl>#icon-1729-0288D1-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.2780061,35.6712777,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>덕천리 산개나리군락</name>
+        <description><![CDATA[산개나리는 멸종 위기에 처한 중북부 서식 식물로, 관촌면 덕천리의 좁은 면적에 옹기종기 모여 자생하고 있어요. 일반 개나리보다 꽃이 조금 더 연한 황색을 띠고 잎이 돋기 전에 꽃이 피는 것이 특징이에요. 남부 지방에서 발견된 것은 매우 드문 사례라 식물 분포학상 귀중한 자료입니다.]]></description>
+        <styleUrl>#icon-1729-0288D1-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.2789717,35.672097,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>임실필봉농악</name>
+        <description><![CDATA[호남 좌도 지역을 대표하는 농악으로, 가락을 늘리며 논리적인 전개를 펼치는 앞굿과, 노래, 춤, 놀이가 총망라된 주술적인 뒷굿으로 나뉘어 있어요. 특히 뒷굿에는 치배들이 마주 앉아 손뼉을 치는 수박치기나 상쇠와 대포수가 함께 노는 도둑잽이굿처럼 군사 놀이의 성격을 띤 독특한 굿들이 포함되어 있어 한층 더 신명 난답니다.]]></description>
+        <styleUrl>#icon-1773-0288D1-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.154603,35.5355002,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>등록문화재</name>
+      <Placemark>
+        <name>임실오수망루</name>
+        <description><![CDATA[벽돌을 원통형으로 둥글게 쌓아 올리고, 그 꼭대기에 사방을 훤히 둘러볼 수 있는 육각형 모양의 망대를 얹은 아주 독특한 구조예요. 망대에는 당시 사이렌을 울리던 스피커 2개가 그대로 남아 있어서 역사성과 건축학적 가치를 모두 인정받고 있어요.]]></description>
+        <styleUrl>#icon-1804-E65100-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.3277342,35.5372813,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>임실 회문망루</name>
+        <description><![CDATA[한국전쟁 당시 빨치산의 습격과 경찰의 토벌 과정에서 겪은 극심한 혼란기를 엿볼 수 있는 자연석과 시멘트 재질의 원통형 망루예요. 원래 내부는 무기 보관실, 숙직실, 사격 공간 등 3층으로 알차게 나뉘어 있었어요. 회문산 근처의 긴박했던 한국전쟁 역사의 흔적을 고스란히 간직하고 있답니다.]]></description>
+        <styleUrl>#icon-1804-E65100-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.1571565,35.5093652,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>임실 운암망루</name>
+        <description><![CDATA[한국전쟁 당시 지역 방위를 위해 세워진 자연석과 시멘트 재질의 원통형 망루예요. 12m 높이의 든든한 외벽에는 총을 쏠 수 있는 구멍(총안)이 여전히 남아있어, 그 시절의 긴박했던 상황을 생결하게 전해줍니다. 전국에 몇 남지 않은 귀중한 근현대사 유적이에요.]]></description>
+        <styleUrl>#icon-1804-E65100-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.1196485,35.5950125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>전라북도 지정 문화재</name>
+      <Placemark>
+        <name>임실진구사 석조비로자나불상</name>
+        <description><![CDATA[통일신라시대 진구사 터에서 발굴된 불상으로, 팔각형 대좌에 희미한 안상과 합장한 좌상 모습, 솟은 연꽃무늬 등이 정교하게 새겨져 있어요. 임진왜란 때 불타버린 커다란 사찰의 흔적을 묵묵히 보여주고 있답니다.]]></description>
+        <styleUrl>#icon-1668-0F9D58-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.2106612,35.6347499,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>오수리석불</name>
+        <description><![CDATA[오수리석불은 둥그스름한 타원형 모양의 입상으로, 마을 앞까지 불상이 다가오기를 바라며 평안과 부귀영화를 간절히 기원했던 주민들의 마음이 담겨 있어요. 자비로운 미소가 마음을 편안하게 해주는 수호신 같은 불상입니다.]]></description>
+        <styleUrl>#icon-1668-0F9D58-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.3254329,35.5344613,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>학정리석불</name>
+        <description><![CDATA[굵은 목과 팽만한 체구를 지닌 듬직하고 둔중한 모습의 석불이에요. 손에 연호(燕壺) 같은 것을 들고 있어 병을 고쳐주는 약사여래로 추측된답니다. 옛사람들의 소박한 신앙심과 정겨운 조각 솜씨가 돋보여요.]]></description>
+        <styleUrl>#icon-1668-0F9D58-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.2307777,35.5060464,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>만취정</name>
+        <description><![CDATA[조선 선조 때 지어진 정자로, 아홉 고을의 부사와 팔도 암행어사를 지내며 백성들에게 선정을 베푼 김위 선생을 기리는 곳이에요. 퇴계 이황 선생과 율곡 이이 선생의 시판도 걸려 있어 고결한 선비 정신이 깊게 서려 있답니다.]]></description>
+        <styleUrl>#icon-1804-0F9D58-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.2798407,35.4794124,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>신흥사 대웅전</name>
+        <description><![CDATA[백제 성왕 때 창건된 오랜 사찰로, 대웅전은 당시 백제의 웅장한 건축 양식을 잘 간직하고 있어요. 다포집 구조에 밑이 둥근 배흘림기둥을 세웠으며, 초화문(草花紋) 같은 화려한 단청으로 단점을 아름답게 보완한 옛 장인들의 솜씨가 돋보여요.]]></description>
+        <styleUrl>#icon-1668-0F9D58-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.2597349,35.7549495,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>운서정</name>
+        <description><![CDATA[일제강점기에 지어진 강학 공간으로, 경사지에 높은 축대를 쌓고 화려한 공포 조각을 더해 아주 권위적이고 장식적인 특징을 뽐낸답니다. 당시 임실 지역 선비들의 모임과 교육의 중심지였으며, 주변 산세와 어우러진 풍경이 아주 웅장해요.]]></description>
+        <styleUrl>#icon-1804-0F9D58-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.2761714,35.669918,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>김복규. 김기종부자효자정려비 및 정판</name>
+        <description><![CDATA[아버지의 병을 고치고자 도사가 일러준 약을 구해 살려낸 김복규와, 부모상을 당한 후 3년간 초막을 짓고 호랑이처럼 애통하게 울었던 그의 아들 김기종의 지극한 효심을 기려요. 추사 김정희가 직접 쓴 비석 제목으로도 유명하답니다.]]></description>
+        <styleUrl>#icon-1804-0F9D58-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.2636184,35.5945856,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>이도리 미륵불상</name>
+        <description><![CDATA[험한 산세 탓에 잦았던 화재와 재난을 막고자 지은 절터에 모셔진 불상이에요. 몸통은 하얗게 칠해져 있고 머리와 수염은 검은색, 입술은 붉은색으로 칠해져 있어서 아주 친근하고 토속적인 분위기를 물씬 풍겨요.]]></description>
+        <styleUrl>#icon-1668-0F9D58-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.2856825,35.6178229,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>상이암부도</name>
+        <description><![CDATA[성수산 상이암 경내에 늠름하게 서 있는 세 기의 부도탑이에요. 조선시대에 세워진 것으로 짐작되는데, 비록 누구의 사리를 모셨는지는 알 수 없지만, 계란 모양의 탑신과 지붕돌에 정성껏 새겨진 조각들이 무척 아름다워 보는 이의 감탄을 자아낸답니다. 소박하면서도 단아한 우리 조상들의 조각 솜씨를 느껴보세요!]]></description>
+        <styleUrl>#icon-1668-0F9D58-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.4254418,35.6353647,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>수운정</name>
+        <description><![CDATA[조선시대 학자 최내길 선생이 두 아들을 잃은 슬픔을 달래고자 맑은 산수를 벗 삼아 지은 정자예요. '구름 위에서 물을 본다'는 이름처럼 계곡과 숲이 어우러진 비경 속에 자리 잡고 있어 선비들의 풍류와 고요한 사색을 느끼기에 더없이 좋습니다.]]></description>
+        <styleUrl>#icon-1804-0F9D58-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.2090626,35.6686629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>삼계강사계안</name>
+        <description><![CDATA['삼계강사계안'은 조선시대부터 마을 사람들이 모여 스스로 세금을 걷고 애경사를 해결하며 아이들을 가르치던 자치 활동(동계)의 역사를 상세히 기록한 고문서들이에요. 350년 넘게 이어온 우리 민족의 자치 정신을 생생하게 보여주는 보물입니다.]]></description>
+        <styleUrl>#icon-1804-0F9D58-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.319119,35.5051643,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>이석용생가</name>
+        <description><![CDATA[일제강점기 호남 지역에서 항일 의병장으로 활약하다 37세의 젊은 나이에 순국하신 이석용 장군이 태어난 초가 생가예요. 장군의 뜨거운 항일 정신과 애국 애족의 마음이 깃든 곳으로, 우리 민족의 아픈 역사와 극복의 의지를 되새기게 합니다.]]></description>
+        <styleUrl>#icon-1804-0F9D58-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.3487413,35.6472619,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>임실성미산성</name>
+        <description><![CDATA[백제 시대의 숨결이 살아있는 튼튼한 돌성이에요. 성미산 정상(해발 430m)에 마치 테를 두른 듯 세워졌는데, 옛날 백제와 신라가 치열하게 대립하던 시절에 아주 중요한 방어 기지 역할을 했답니다. 이곳에서 발견된 우아한 금동여래입상과 백제 기와들은 1,400년 전 이 땅을 지키던 사람들의 정교한 솜씨와 간절한 염원을 그대로 전해주고 있어요.]]></description>
+        <styleUrl>#icon-1804-0F9D58-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.2850871,35.6835486,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>상가윷판바위</name>
+        <description><![CDATA[넓은 바위 위에 수십 개의 윷판 모양이 새겨진 신비로운 유적지예요. 단일 바위로는 국내에서 가장 많은 윷판(39점)이 새겨진 곳으로, 단순히 놀이를 위한 것이 아니라 북두칠성 같은 고대의 천문 사상을 담고 있는 것으로 추측된답니다. 우리 민족의 전통 놀이인 윷놀이가 얼마나 깊은 역사와 철학을 지녔는지 보여주는 아주 특별하고 귀중한 장소예요.]]></description>
+        <styleUrl>#icon-1802-0F9D58-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.2412651,35.6448469,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>오수의견비</name>
+        <description><![CDATA[1천 년 전, 술에 취해 잠든 주인을 구하기 위해 자신의 몸을 냇물에 적셔 불길을 잡고 지쳐 죽은 충견의 이야기가 깃든 비석이에요. 주인이 꽂아둔 지팡이가 큰 느티나무로 자라났다고 전해지며, 짐승의 갸륵한 충성심을 후세에 영원히 전하고 있어요.]]></description>
+        <styleUrl>#icon-1804-0F9D58-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.3293221,35.5369714,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>이웅재고가</name>
+        <description><![CDATA[비탈진 지형을 지혜롭게 활용하여 'ㄷ'자 모양의 안채와 솟을대문을 둔 옛집이에요. 가문의 깊은 뿌리를 보여주는 나라에서 내린 효자 현판이 걸려 있으며, 조선시대 상류 가옥의 건축 특징과 생활 양식을 잘 간직하고 있습니다.]]></description>
+        <styleUrl>#icon-1804-0F9D58-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.3165762,35.5041512,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>사곡리남근석</name>
+        <description><![CDATA[옛날 마을에 돌림병이 심해지고 인심이 흉흉해지자, 여성의 음경을 닮은 마을 지세의 기운을 강하게 누르고 풍요를 기원하고자 세운 남근 모양의 돌이에요. 민중들의 소박한 소망과 민간 신앙의 자취를 재밌게 엿볼 수 있어요.]]></description>
+        <styleUrl>#icon-1804-0F9D58-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.1800089,35.5185785,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>영천서원</name>
+        <description><![CDATA[기묘사화 때 희생된 학자를 추모하며 지방 유림이 모여 학문을 닦던 유서 깊은 서원이에요. 임실 지역에서 가장 먼저 세워진 서원으로, 맑은 시냇물과 숲이 어우러진 고즈넉한 풍경 속에서 선비들의 올곧은 정신을 느껴볼 수 있습니다.]]></description>
+        <styleUrl>#icon-1804-0F9D58-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.3746514,35.5757123,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>주암서원</name>
+        <description><![CDATA[1630년에 세워진 주암서원은 조선시대 학자들이 모여 학문을 닦고 선현들을 기리던 유서 깊은 곳이에요. 팔작지붕의 단아한 건물들이 주변의 평화로운 풍경과 어우러져 한 폭의 그림 같은 분위기를 자아낸답니다. 고즈넉한 서원 앞뜰을 거닐며 옛 선비들의 고결한 정신을 잠시나마 느껴보시는 건 어떨까요?]]></description>
+        <styleUrl>#icon-1804-0F9D58-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.3544705,35.5659383,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>신안서원</name>
+        <description><![CDATA[성리학의 대가 주자를 포함해 여덟 분의 훌륭한 학자(8현)를 모시고 학문을 닦던 서원이에요. 임진왜란 때 소실되었다가 다시 세워지는 역경 속에서도, 지방 교육과 유학 전파의 명맥을 꿋꿋이 이어온 역사의 장소입니다.]]></description>
+        <styleUrl>#icon-1804-0F9D58-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.2393447,35.6000419,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>해월암</name>
+        <description><![CDATA[조선 명종 때 세워진 고요한 암자로, 해 질 녘 암자 위로 떠오르는 달빛이 바다처럼 아름답다고 해서 붙여진 이름이에요. 험한 산세 속에 조용히 자리 잡고 있어 일상의 복잡함을 잊고 잠시 명상에 잠기기에 안성맞춤입니다.]]></description>
+        <styleUrl>#icon-1668-0F9D58-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.3229063,35.5371154,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>임실향교대성전</name>
+        <description><![CDATA[지방의 유교 교육을 담당하던 향교의 핵심 건물로, 여러 차례의 중수를 거치며 단아한 모습을 유지해 왔어요. 입구에는 700년 넘은 거대한 은행나무가 늠름하게 서서 향교의 오랜 역사와 전통을 증명하고 있답니다.]]></description>
+        <styleUrl>#icon-1804-0F9D58-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.2794116,35.6170009,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>노동환가옥</name>
+        <description><![CDATA[산의 뱀 기운이 집을 위협하는 것을 누르기 위해 정각을 따로 지어 풍수지리를 엄격히 따졌던 1650년대 조선시대 가옥이에요. 자연과의 조화와 가문의 번영을 바랐던 조상들의 지혜가 집안 곳곳에 스며들어 있답니다.]]></description>
+        <styleUrl>#icon-1804-0F9D58-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.2665584,35.4838856,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>광제정</name>
+        <description><![CDATA[조선시대 기묘사화를 피해 숲 깊은 곳에 은거하며 세운 아름다운 정자예요. 주변의 옥정호 경치와 어우러진 풍광이 일품이며, 이름 그대로 세상을 넓게 구제하고자 했던 선비의 고결한 뜻이 숲의 정취와 함께 전해지는 곳입니다.]]></description>
+        <styleUrl>#icon-1804-0F9D58-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.2446126,35.4936347,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>양요정</name>
+        <description><![CDATA[임진왜란을 피해 지어진 정자로, 원래 섬진강 변에 있었으나 섬진강댐 건설로 수몰될 위기를 맞자 후손들이 현재의 위치로 정성껏 옮겨 놓았어요. 옥정호의 푸른 물결을 한눈에 내려다볼 수 있는 수려한 조망을 자랑합니다.]]></description>
+        <styleUrl>#icon-1804-0F9D58-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.1539915,35.6310701,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>오괴정</name>
+        <description><![CDATA[조선시대 사화(士禍)를 피해 깊은 숲속에 은거하며 세운 정자예요. 이름처럼 원래 다섯 그루의 느티나무가 둘러싸고 있었다고 전해지며, 지금도 시원한 나무 그늘 아래서 선비들이 즐기던 차분한 학문의 분위기를 느껴볼 수 있습니다.]]></description>
+        <styleUrl>#icon-1804-0F9D58-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.3026073,35.5111381,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>관곡서원 소장 전적 및 고문서</name>
+        <description><![CDATA[18~19세기에 서원의 운영 과정과 유생들의 기록 등을 세세하게 적어둔 유물들이에요. 당시 향촌 사회의 실상과 유교 문화의 이면을 깊이 이해하는 데에 무척 귀중한 희귀 자료로 평가받고 있습니다.]]></description>
+        <styleUrl>#icon-1804-0F9D58-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.3599315,35.597525,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>한지장 홍춘수</name>
+        <description><![CDATA[값싼 기계식 종이의 등장에도 60년 넘게 묵묵히 전통 한지 제작 방식을 지켜온 무형문화재 장인이에요. 황토와 단풍잎 등을 섞어 튼튼하고도 아름다운 천연 한지를 개발하여 우리 전통의 예술성을 세계에 알리고 계십니다.]]></description>
+        <styleUrl>#icon-1509-0F9D58-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.2022283,35.5696124,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>한지장 김일수</name>
+        <description><![CDATA[가업을 이어받아 3대째 묵묵히 전통 한지의 길을 걷고 있는 김일수 장인이에요. 닥나무와 천연 재료만을 고집해 질기면서도 부드러운 최상급 한지를 생산하며, 잊혀가는 우리 전통 기술의 결을 소중히 지켜나가고 계십니다. 홍춘수 장인과 함께 임실 한지의 자부심을 상징하는 분이랍니다.]]></description>
+        <styleUrl>#icon-1509-0F9D58-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            127.1536267,35.4791329,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>죽림암</name>
+        <description><![CDATA[잦은 전란과 화재를 겪으면서도 주민들의 정성으로 꿋꿋이 다시 세워진 끈기 있는 사찰이에요. 이름처럼 울창한 대나무 숲에 둘러싸여 있어 운치가 넘치며, 맑은 공기와 새소리가 어우러져 평온한 휴식을 선사합니다.]]></description>
+        <styleUrl>#icon-1668-0F9D58-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.2698092,35.6170642,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>군지정 문화재</name>
+      <Placemark>
+        <name>이상형 선생묘비</name>
+        <description><![CDATA[병자호란 당시 끝까지 청나라에 항거하며 척화를 외쳤던 충신 이상형 선생을 기리는 묘비예요. 당대 최고의 명필과 대학자가 비문을 남겨 역사적 가치가 높으며, 선생의 꼿꼿한 절개와 나라 사랑을 기리고 있습니다.]]></description>
+        <styleUrl>#icon-1804-817717-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.1162581,35.6098771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>말천방 들노래</name>
+        <description><![CDATA[임실군 삼계면 두월리 말천방 지역에서 전해 내려오는 정겨운 농사 노동요예요. 2016년 임실군 향토문화유산 제1호로 지정되었답니다. 빗물에 의존하는 척박한 천수답에서 농사를 지으며 고단함을 잊고 서로를 북돋아 주던 8곡의 풍성한 노래들로 구성되어 있어요. 한때 전승이 끊길 위기도 있었지만, 고향을 사랑하는 주민들의 정성 어린 노력으로 '말천방 들노래 축제'가 매년 열리는 등 조상들의 협동 정신과 신명 나는 삶의 지혜를 지금까지 소중히 이어오고 있는 소중한 유산입니다.]]></description>
+        <styleUrl>#icon-1509-817717-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            127.2876835,35.5192684,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>임실현읍총 병풍</name>
+        <description><![CDATA['임실현읍총 병풍'은 1872년 현감이 교체될 때 관아의 재정과 운영 현황, 한지 납품 내역 등을 8폭 병풍에 꼼꼼하게 기록해 둔 유물이에요. 당시 지방 행정과 생활상을 그림과 기록으로 한눈에 파악할 수 있는 귀중한 자료입니다.]]></description>
+        <styleUrl>#icon-1509-817717-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.2221786,35.6552346,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>삼청동비</name>
+        <description><![CDATA[조선 태조 이성계가 성수산에서 기도를 드린 후, 자신의 꿈을 이루게 된 기쁨을 담아 바위에 직접 ‘삼청동(三淸洞)’이라는 글씨를 새겼다고 전해지는 비석이에요. 세상을 맑게 한다는 뜻을 담고 있으며, 조선 건국의 신비로운 설화가 깃든 아주 특별한 역사적 유물이랍니다.]]></description>
+        <styleUrl>#icon-1804-817717-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.4261713,35.6346977,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>삼계석문</name>
+        <description><![CDATA[삼계석문은 세 줄기 시냇물이 합쳐지는 명당자리에 위치한 신비로운 바위 문이에요. 약 380년 전 선비 최유지 선생이 바위에 직접 ‘삼계석문(三溪石門)’이라는 글자를 새겼다고 전해지며, 예부터 마을을 지키는 든든한 상징이자 자연의 아름다움을 노래하던 정겨운 장소랍니다.]]></description>
+        <styleUrl>#icon-1509-817717-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.3156643,35.4970151,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>단구대</name>
+        <description><![CDATA[삼계석문 옆에 깎아지른 듯 솟아있는 웅장한 절벽 바위예요. 장성산의 끝자락이 계곡과 만나 이루어낸 기가 막힌 풍경이 일품이랍니다. 옛 선비들이 이곳의 절경에 반해 시를 읊으며 풍류를 즐기던 곳으로, 임실의 숨겨진 보물 같은 자연 명소예요.]]></description>
+        <styleUrl>#icon-1509-817717-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.3150635,35.497941,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>기타 문화유적</name>
+      <Placemark>
+        <name>소충사</name>
+        <description><![CDATA[조국의 독립을 위해 목숨 바친 이석용 장군과 28명의 의사를 함께 모신 충절의 성역이에요. 뜨거운 호국 정신을 기리기 위해 세워진 보훈 시설로, 매년 가을이면 이들의 숭고한 넋을 기리는 충혼제가 이곳에서 경건하게 열린답니다.]]></description>
+        <styleUrl>#icon-1511-9C27B0-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.3469868,35.6218043,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>현주서원</name>
+        <description><![CDATA[조선 광해군 때 건립되어 선비들이 진리를 탐구하던 학문의 요람이에요. 흥선대원군의 서원 철폐령 중에도 살아남을 만큼 그 권위와 학풍이 높았으며, 당시 서원 건축의 전형적인 미학을 잘 간직하고 있답니다.]]></description>
+        <styleUrl>#icon-1804-9C27B0-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.3475289,35.5549411,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>박준승선생 생가</name>
+        <description><![CDATA[1919년 3·1운동 당시 민족대표 33인 중 한 분이셨던 천도교 박준승 선생이 태어나신 생가예요. 호남 지역의 독립운동을 이끌다 옥고를 치르신 선생의 숭고한 독립 정신과 민족 사랑의 마음을 느낄 수 있는 뜻깊은 장소입니다.]]></description>
+        <styleUrl>#icon-1603-9C27B0-labelson</styleUrl>
+        <Point>
+          <coordinates>
+            127.2081692,35.5417507,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>덕암서원</name>
+        <description><![CDATA[고려의 충신 포은 정몽주 선생의 위패를 모시고 있는 정갈한 서원이에요. 선생의 일편단심 충절과 학덕을 기리며 제자들이 학문에 정진하던 곳으로, 예스러운 건물들과 주변의 평화로운 분위기가 마음을 정화해 줍니다.]]></description>
+        <styleUrl>#icon-1804-9C27B0-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.3596632,35.5873697,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>상이암</name>
+        <description><![CDATA[해발 876m의 성수산 깊은 숲속에 은밀하게 자리 잡은 상이암은 나라를 세우는 기운이 서려 있는 아주 특별한 사찰이에요. 고려 태조 왕건과 조선 태조 이성계가 건국 전 이곳에서 백일기도 끝에 하늘의 계시를 받았다는 신비로운 전설이 내려온답니다. 일상의 고단함을 잊고 좋은 기운을 가득 받아가고 싶은 분들께 강력 추천하는 장소예요!]]></description>
+        <styleUrl>#icon-1668-9C27B0-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.4239826,35.6364764,0
+          </coordinates>
+        </Point>
+      </Placemark>
+
+      <Placemark>
+        <name>왕방리들독</name>
+        <description><![CDATA[정월 대보름날 당제를 지내고 마을의 안녕과 풍요를 기원하며 무거운 돌을 들어 올리던 정겨운 전통 놀이가 담긴 돌이에요. 스무 살이 되기 전의 소년이라도 이 돌을 번쩍 들어 힘을 증명하면, 마을에서 당당히 어른 대접을 받으며 일꾼으로서의 품삯(품앗이)을 제대로 인정받았다고 해요. 우리 조상들의 강인한 기백과 공동체의 든든한 결속력을 보여주는 소중한 민속 유산이랍니다.]]></description>
+        <styleUrl>#icon-1509-9C27B0-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            127.3716903,35.6235354,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>수천리거북돌</name>
+        <description><![CDATA[마을을 화재로부터 지켜준다는 전설이 내려오는 신비한 거북 모양 바위예요. 옛날 마을에 자꾸 불이 나 고생할 때, 산신령의 계시로 이 거북돌을 발견해 마을 중앙에 모셨더니 신기하게도 화재가 뚝 끊겼다고 해요. 지금도 신덕면 수천리 주민들은 이 거북돌을 소중한 수호신으로 여기며 정성껏 보살피고 있답니다.]]></description>
+        <styleUrl>#icon-1509-9C27B0-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            127.1778631,35.6839147,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>운암 망향탑</name>
+        <description><![CDATA[섬진강댐 건설로 인해 정든 고향이 물 아래로 잠겨버린 수몰민들의 그리움이 서린 탑이에요. 옥정호가 내려다보이는 국사봉 줄기에 세워져 있는데, 고향을 잃은 슬픔을 달래고 언젠가 다시 돌아가고 싶은 간절한 마음이 담겨 있답니다. 아름다운 물안개 속에 잠긴 옥정호를 바라보며 뼈아픈 역사를 되새기게 하는 애틋한 장소예요.]]></description>
+        <styleUrl>#icon-1729-9C27B0-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            127.1569633,35.6363544,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>관광지</name>
+      <Placemark>
+        <name>옥정호</name>
+        <description><![CDATA[임실의 랜드마크이자 물안개가 아름다운 호수예요. 섬진강 상류에 자리 잡아 일교차가 큰 봄과 가을이면 호수면 위로 피어오르는 몽환적인 물안개가 마치 신선이 사는 곳 같은 장관을 연출한답니다. 옥정호를 따라 굽이굽이 이어지는 드라이브 코스는 '한국의 아름다운 길 100선'에 선정될 만큼 빼어난 경관을 자랑하니, 연인이나 가족과 함께 꼭 한번 달려보세요!]]></description>
+        <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>127.15082, 35.63441, 0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>국사봉</name>
+        <description><![CDATA[해발 475m의 아담한 산이지만, 정상에 오르면 옥정호의 그림 같은 풍경과 붕어섬을 한눈에 담을 수 있는 최고의 조망 명소예요. 특히 물안개가 깔린 새벽녘의 옥정호는 말로 표현할 수 없을 만큼 신비로워 사진 작가들에게도 큰 사랑을 받는 답니다. 가벼운 등산으로 옥정호의 진면목을 발견하고 싶다면 국사봉을 추천드려요!]]></description>
+        <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.148273,35.6448643,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>백련산</name>
+        <description><![CDATA[멀리서 보면 하얀 연꽃이 핀 것처럼 보여 백련산이라 불리게 되었어요. 사시사철 색다른 풍경을 선사하지만, 특히 눈 덮인 겨울산의 모습은 정말 우아하고 아름답답니다. 산세가 부드러워 걷기 좋고, 정상에서 내려다보는 주변 산줄기의 파노라마 뷰가 가슴을 탁 트이게 해주는 임실의 숨은 명산이에요.]]></description>
+        <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.1602249,35.5810701,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>임실호국원</name>
+        <description><![CDATA[나라를 위해 헌신하신 호국영령들이 평온하게 잠들어 계시는 경건하고 숭고한 보훈 성지예요. 6.25 전쟁과 월남전에서 조국을 지켜낸 참전 용사들의 숭고한 희생정신을 기리는 이곳은, 우리 민족의 아픈 역사를 되새기며 평화의 소중함을 배울 수 있는 교육의 장이기도 하답니다. 정갈하게 가꾸어진 묘역과 현충탑을 거닐며 조용히 감사의 마음을 전해보세요. 유가족분들뿐만 아니라 누구나 방문하여 호국 영웅들의 넋을 기리고 마음의 평온을 찾을 수 있는 뜻깊은 장소랍니다.]]></description>
+        <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.1919823,35.5519559,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>세심자연휴양림</name>
+        <description><![CDATA[삼계면 원통산 자락에 자리 잡은 세심(洗心)자연휴양림은 그 이름처럼 ‘마음을 씻어내는’ 평온한 숲속 쉼터예요. 30년 넘은 소나무 숲과 기암괴석 사이로 흐르는 맑은 계곡이 어우러져 사계절 내내 아름다운 절경을 선사한답니다. 특히 상류의 죽계댐을 따라 이어지는 숲길은 자연과 호반이 어우러져 산책하기에 정말 좋아요. 지친 일상에서 벗어나 맑은 공기를 마시며 진정한 힐링을 만끽해 보세요!]]></description>
+        <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.2343826,35.5160897,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>사선대관광지</name>
+        <description><![CDATA[신선과 선녀들이 내려와 노닐었다는 전설이 깃든 사선대는 섬진강 상류의 맑은 오원천과 기암절벽이 어우러진 임실의 대표적인 명승지예요. ‘네 명의 신선이 놀았다’는 이름처럼 사방을 둘러싼 풍경이 병풍처럼 아름다워 사계절 내내 많은 분들이 찾아주신답니다. 드넓은 잔디밭과 조각공원에서 예술 작품을 감상하며 여유로운 산책을 즐겨보세요! 특히 가을이면 물길을 따라 펼쳐지는 오색찬란한 단풍이 보는 이의 마음을 사로잡는 곳이랍니다. 인근의 운서정에 오르면 사선대의 절경을 한눈에 담을 수도 있어, 임실 여행에서 절대 놓쳐서는 안 될 필수 코스예요.]]></description>
+        <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.2794437,35.67323,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>성수산자연휴양림</name>
+        <description><![CDATA[울창한 편백나무와 낙엽송이 가득한 성수산 자락에서 피톤치드 가득한 휴식을 즐길 수 있는 곳이에요. 산림욕장과 산책로가 잘 가꾸어져 있어 가족, 연인과 함께 가볍게 걷기에 안성맞춤이랍니다. 숲의 맑은 공기를 마시며 지친 몸과 마음을 달래고, 상이암까지 이어지는 트레킹 코스도 꼭 한번 경험해보세요!]]></description>
+        <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.4031258,35.6393713,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>성수산</name>
+        <description><![CDATA[고려의 왕건과 조선의 이성계, 두 임금이 기도를 드리고 대업을 이루었다는 전설이 내려오는 기운찬 명산이에요. 해발 876m의 산세는 울창한 숲과 깊은 계곡을 품고 있어 사계절 내내 아름다운 풍경을 선사한답니다. 정상에 오르면 탁 트인 전망이 가슴을 시원하게 해주는 임실 최고의 영산이에요.]]></description>
+        <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.4249697,35.6399642,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>임실치즈테마파크</name>
+        <description><![CDATA[우리나라 치즈의 역사와 문화를 한눈에 보고 경험할 수 있는 동화 같은 공간이에요! 이국적인 유럽풍 건축물과 드넓은 초원은 찍는 곳마다 인생샷이 되는 아름다운 배경이 되어준답니다. 고소한 치즈 만들기 체험부터 매콤달콤한 피자 체험까지 즐길 거리가 가득해, 아이들에게는 최고의 놀이터이자 어른들에게는 즐거운 힐링의 장소가 되어주는 임실의 대표 명소예요.]]></description>
+        <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+        
+        <Point>
+          <coordinates>
+            127.3011589,35.6332327,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
