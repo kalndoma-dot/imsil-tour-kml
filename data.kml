@@ -883,6 +883,25 @@
         </Point>
       </Placemark>
       <Placemark>
+        <name>모탱이공방</name>
+        <description><![CDATA[다양한 임실의 문화를 소재로 하는 굿즈를 만드는 공방이에요. 주말에는 카페로 운영하여 향긋한 차도 즐길수 있어요.]]></description>
+        <styleUrl>#icon-1899-0288D1-labelson</styleUrl>        
+        <Point>
+          <coordinates>
+             127.18374,35.58604,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>전라북도 종합 사격장</name>
+        <description><![CDATA[국제경기가 열릴수 있을 만큼의 규모와 시설을 갖춘 사격장 이에요. 공기총, 산탄총등으로 직접 사격할 수 있는 체험을 즐길 수 있어요.]]></description>
+        <styleUrl>#icon-1899-0288D1-labelson</styleUrl>        
+        <Point>
+          <coordinates>
+             127.19255,35.58626,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
   </Document>
 </kml>
