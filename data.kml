@@ -902,6 +902,16 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>2026 임실N치즈축제</name>
+        <description><![CDATA[<img src="https://raw.githubusercontent.com/kalndoma-dot/imsil-tour-kml/main/images/cheese_festival_2026.jpg" style="max-width:100%; border-radius:12px;"/><br>대한민국 치즈의 역사를 기념하는 임실군의 대표 가을 축제입니다. 다채로운 공연, 체험, 먹거리가 준비되어 있어요!]]></description>
+        <styleUrl>#icon-1899-0288D1-labelson</styleUrl>        
+        <Point>
+          <coordinates>
+            127.3014400,35.6325960,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
   </Document>
 </kml>
