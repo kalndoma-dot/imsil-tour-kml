@@ -102,3 +102,30 @@ KML에 입력:        127.2891, 35.6174  ← 순서 바꿔야 함!
 - [ ] `npm run build` 실행 → [.ait](file:///d:/toss%20project/imsil-toss-app/imsiltour.ait) 파일 생성
 - [ ] 토스 플랫폼에 최종 버전 출시 (마지막 버전업)
 - [ ] 이후 데이터 변경은 GitHub에서만 관리 ✅
+
+---
+
+## 🎨 축제 공식 포스터 수동 관리 가이드
+
+외부 사이트의 빈번한 구조 변경이나 잘못된 이미지 업로드로 인한 앱의 신뢰도 하락을 막기 위해, 공식 포스터 및 현장 사진은 **관리자가 수동으로 검수하여 지정된 폴더에 덮어쓰기 하는 방식**으로 고정하여 운영합니다.
+
+### 1. 이미지 교체 방법
+`images/` 폴더 내에 저장된 아래 **표준 파일명**을 그대로 사용하여 새로운 사진 파일을 덮어쓰기(Overwrite) 합니다.
+- `rose_festival.jpg` (임실N장미축제)
+- `aqua_festival.jpg` (임실 아쿠아페스티벌)
+- `cheese_festival.jpg` (임실N치즈축제)
+- `santa_festival.jpg` (임실 산타축제)
+
+> **팁:** 이미지 확장자가 `.png`이더라도 파일명을 무조건 `.jpg`로 변경하여 덮어쓰거나, 파일 확장자가 바뀌는 경우 `data.kml` 내부의 파일명도 함께 변경해 주어야 합니다. 가급적 `.jpg` 포맷 유지를 권장합니다.
+
+### 2. GitHub에 변경 사항 푸시
+로컬 저장소의 `images/` 폴더에 사진을 덮어썼다면, 다음 명령어로 변경 사항을 Github에 반영합니다.
+
+```bash
+git add images/
+git commit -m "Update: [축제이름] 공식 포스터 이미지 교체"
+git push
+```
+
+### 3. 반영 결과 확인
+`data.kml`은 항상 Github Raw 주소(`https://raw.githubusercontent.com/...`)를 통해 `images/` 폴더의 이미지를 직접 바라보고 있습니다. Github에 Push 된 직후 앱을 새로고침하면 교체한 사진이 즉시 반영되어 보입니다.
