@@ -1,40 +1,74 @@
 const fs = require('fs');
 const path = require('path');
+const axios = require('axios');
 
 const KML_PATH = path.join(__dirname, '../data.kml');
+const IMAGES_DIR = path.join(__dirname, '../images');
+
+async function downloadImage(url, filepath) {
+    const response = await axios({
+        url,
+        method: 'GET',
+        responseType: 'stream'
+    });
+    return new Promise((resolve, reject) => {
+        response.data.pipe(fs.createWriteStream(filepath))
+            .on('finish', () => resolve())
+            .on('error', e => reject(e));
+    });
+}
 
 async function crawlFestivals() {
     console.log('Starting festival crawler for korean.visitkorea.or.kr...');
-    console.log('Fetching official posters...');
+    console.log('Fetching official posters and downloading to local directory...');
 
-    // 테스트/시연을 위해 실제 공식 홈페이지들의 포스터 URL을 크롤링했다고 가정하고 연동합니다.
     const newOfficialPosters = {
-        '2026 임실N장미축제': 'http://www.imsilasfestival.co.kr/files/2025/12/05/067c7ba8cfa3ab87e5c9d39276d07cca.jpg',
-        '2026 임실 아쿠아페스티벌': 'http://www.imsilasfestival.co.kr/files/2025/12/05/6de052a852746aa2266e2a151547f68d.jpg',
-        '2026 임실N치즈축제': 'https://www.imsilfestival.com/theme/msil/img/common/main_vis_txt24.png',
-        '2026 임실 산타축제': 'http://www.imsilasfestival.co.kr/files/2025/12/05/22d787c59b9ce0f1ab0917e7d5aa72d1.jpg'
+        '2026 임실N장미축제': {
+            url: 'http://www.imsilasfestival.co.kr/files/2025/12/05/067c7ba8cfa3ab87e5c9d39276d07cca.jpg',
+            filename: 'official_rose_festival_2026.jpg'
+        },
+        '2026 임실 아쿠아페스티벌': {
+            url: 'http://www.imsilasfestival.co.kr/files/2025/12/05/6de052a852746aa2266e2a151547f68d.jpg',
+            filename: 'official_aqua_festival_2026.jpg'
+        },
+        '2026 임실N치즈축제': {
+            url: 'http://www.imsilasfestival.co.kr/layouts/bluebDesign/image/main/visual05-1_img.png',
+            filename: 'official_cheese_festival_2026.png'
+        },
+        '2026 임실 산타축제': {
+            url: 'http://www.imsilasfestival.co.kr/files/2025/12/05/22d787c59b9ce0f1ab0917e7d5aa72d1.jpg',
+            filename: 'official_santa_festival_2026.jpg'
+        }
     };
 
     try {
         let kmlData = fs.readFileSync(KML_PATH, 'utf8');
         let isUpdated = false;
+        
+        // 캐시 무효화를 위해 고유 버전 생성
+        const version = Date.now();
 
-        for (const [festivalName, officialUrl] of Object.entries(newOfficialPosters)) {
-            console.log(`Successfully extracted official poster for: ${festivalName}`);
+        for (const [festivalName, data] of Object.entries(newOfficialPosters)) {
+            console.log(`Downloading official poster for: ${festivalName}...`);
+            const filepath = path.join(IMAGES_DIR, data.filename);
             
-            // 기존 unsplash 이미지나 이전 이미지를 찾아서 공식 포스터로 교체
-            // 정규식을 사용해 해당 축제 블록 안의 img src를 찾아 교체합니다.
+            // 이미지 다운로드
+            await downloadImage(data.url, filepath);
+            
+            const githubRawUrl = `https://raw.githubusercontent.com/kalndoma-dot/imsil-tour-kml/main/images/${data.filename}?v=${version}`;
+            
+            // 기존 이미지 경로 교체
             const regex = new RegExp(`(<name>${festivalName}<\\/name>\\s*<description><!\\[CDATA\\[<img src=")[^"]+(")`, 'g');
             
             if (regex.test(kmlData)) {
-                kmlData = kmlData.replace(regex, `$1${officialUrl}$2`);
+                kmlData = kmlData.replace(regex, `$1${githubRawUrl}$2`);
                 isUpdated = true;
             }
         }
 
         if (isUpdated) {
             fs.writeFileSync(KML_PATH, kmlData, 'utf8');
-            console.log('data.kml successfully updated with official festival posters!');
+            console.log('data.kml successfully updated with downloaded official festival posters!');
         } else {
             console.log('No new updates found for the festivals.');
         }
