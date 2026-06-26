@@ -942,6 +942,16 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>2026 임실N펫스타 축제</name>
+        <description><![CDATA[<img src="https://raw.githubusercontent.com/kalndoma-dot/imsil-tour-kml/main/images/pet_festival.jpg" style="max-width:100%; border-radius:12px;"/><br>반려동물과 함께하는 특별한 축제! 임실 오수의견관광지 일원에서 개최되는 임실N펫스타 (2026년 5월 1일 ~ 5월 3일). 반려동물 용품, 체험 부스 등 다채로운 행사가 열립니다.]]></description>
+        <styleUrl>#icon-1899-0288D1-labelson</styleUrl>        
+        <Point>
+          <coordinates>
+            127.3242000,35.5392000,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
   </Document>
 </kml>
