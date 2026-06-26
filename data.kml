@@ -922,6 +922,26 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>2026 임실 아쿠아페스티벌</name>
+        <description><![CDATA[<img src="https://raw.githubusercontent.com/kalndoma-dot/imsil-tour-kml/main/images/aqua_festival_2026.jpg?v=20260626" style="max-width:100%; border-radius:12px;"/><br>가자~ 빠지자! 신나는 야외 물놀이 축제. 매년 여름 7월 중순부터 8월 중순(예: 7.26~8.10)까지 임실치즈테마파크 장미원 이벤트광장에서 개최됩니다.]]></description>
+        <styleUrl>#icon-1899-0288D1-labelson</styleUrl>        
+        <Point>
+          <coordinates>
+            127.3015400,35.6326960,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2026 임실 산타축제</name>
+        <description><![CDATA[<img src="https://raw.githubusercontent.com/kalndoma-dot/imsil-tour-kml/main/images/santa_festival_2026.jpg?v=20260626" style="max-width:100%; border-radius:12px;"/><br>산타와 함께 떠나는 즐거운 겨울 여행! 매년 12월 25일 크리스마스 시즌(예: 12.25~12.28)에 맞춰 다채로운 이벤트와 함께 열립니다.]]></description>
+        <styleUrl>#icon-1899-0288D1-labelson</styleUrl>        
+        <Point>
+          <coordinates>
+            127.3016400,35.6327960,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
   </Document>
 </kml>
